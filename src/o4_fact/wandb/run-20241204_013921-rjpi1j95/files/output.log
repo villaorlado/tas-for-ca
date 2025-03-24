@@ -1,0 +1,25 @@
+../../data/thumbnails/thumbnails_60secsPerFrame_160px120px
+Loading Feature from ../../data/thumbnails/thumbnails_60secsPerFrame_160px120px
+Loading Label from ..//src/4_fact/groundTruth
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Volumes/Samsung SSD/FACT_and_all_working_copy/src/o4_fact/src/train.py", line 100, in <module>
+    dataset, test_dataset = create_dataset(cfg)
+                            ^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/Samsung SSD/FACT_and_all_working_copy/src/o4_fact/src/utils/dataset.py", line 284, in create_dataset
+    test_dataset = Dataset(test_video_list, nclasses, load_video, bg_class)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/Samsung SSD/FACT_and_all_working_copy/src/o4_fact/src/utils/dataset.py", line 83, in __init__
+    self.data[video_list[0]] = load_video_func(video_list[0])
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/Samsung SSD/FACT_and_all_working_copy/src/o4_fact/src/utils/dataset.py", line 252, in load_video
+    feature = load_feature(feature_path, vname, feature_transpose) # should be T x D or T x D x H x W
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/Samsung SSD/FACT_and_all_working_copy/src/o4_fact/src/utils/dataset.py", line 16, in load_feature
+    feature = np.load(file_name)
+              ^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/wayang_kulit_2/lib/python3.12/site-packages/numpy/lib/npyio.py", line 427, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../../data/thumbnails/thumbnails_60secsPerFrame_160px120px/video_.npy'

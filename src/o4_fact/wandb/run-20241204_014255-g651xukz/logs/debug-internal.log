@@ -1,0 +1,19 @@
+{"time":"2024-12-04T01:42:55.463492+01:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-12-04T01:42:55.463567+01:00","level":"INFO","msg":"created symlink","path":"/Volumes/Samsung SSD/FACT_and_all_working_copy/src/o4_fact/wandb/run-20241204_014255-g651xukz/logs/debug-core.log"}
+{"time":"2024-12-04T01:42:55.470482+01:00","level":"INFO","msg":"created new stream","id":"g651xukz"}
+{"time":"2024-12-04T01:42:55.470531+01:00","level":"INFO","msg":"stream: started","id":"g651xukz"}
+{"time":"2024-12-04T01:42:55.470582+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"g651xukz"}}
+{"time":"2024-12-04T01:42:55.470551+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"g651xukz"}}
+{"time":"2024-12-04T01:42:55.470568+01:00","level":"INFO","msg":"sender: started","stream_id":{"value":"g651xukz"}}
+{"time":"2024-12-04T01:42:55.839498+01:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-12-04T01:42:55.84122+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-04T01:42:56.041416+01:00","level":"INFO","msg":"stream: closing","id":"g651xukz"}
+{"time":"2024-12-04T01:42:56.041461+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-04T01:42:56.041503+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-04T01:42:56.571456+01:00","level":"WARN","msg":"No program path found, not creating job artifact. See https://docs.wandb.ai/guides/launch/create-job"}
+{"time":"2024-12-04T01:42:56.571482+01:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-12-04T01:42:57.13974+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-04T01:42:57.466816+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"g651xukz"}}
+{"time":"2024-12-04T01:42:57.466833+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"g651xukz"}}
+{"time":"2024-12-04T01:42:57.466841+01:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"g651xukz"}}
+{"time":"2024-12-04T01:42:57.467015+01:00","level":"INFO","msg":"stream: closed","id":"g651xukz"}

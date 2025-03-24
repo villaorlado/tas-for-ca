@@ -1,0 +1,16 @@
+google_api_python_client==2.149.0
+isodate==0.7.2
+lmdb==1.5.1
+numpy==1.26.4
+opencv_python==4.10.0.82
+pandas==2.2.3
+paramiko==3.5.0
+python-dotenv==1.0.1
+reportlab==4.2.5
+Requests==2.32.3
+scipy==1.14.1
+streamlit==1.39.0
+torch==2.2.2
+tqdm==4.66.4
+wandb==0.18.3
+yacs==0.1.8

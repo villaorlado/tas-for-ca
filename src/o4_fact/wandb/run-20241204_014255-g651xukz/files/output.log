@@ -1,0 +1,24 @@
+Loading Thumbnails from ../../data/thumbnails/thumbnails_60secsPerFrame_160px120px
+Loading Label from ..//src/4_fact/groundTruth
+../../data/thumbnails/thumbnails_60secsPerFrame_160px120px
+../../data/thumbnails/thumbnails_60secsPerFrame_160px120px
+video_
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Volumes/Samsung SSD/FACT_and_all_working_copy/src/o4_fact/src/train.py", line 100, in <module>
+    dataset, test_dataset = create_dataset(cfg)
+                            ^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/Samsung SSD/FACT_and_all_working_copy/src/o4_fact/src/utils/dataset.py", line 288, in create_dataset
+    test_dataset = Dataset(test_video_list, nclasses, load_video, bg_class)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/Samsung SSD/FACT_and_all_working_copy/src/o4_fact/src/utils/dataset.py", line 86, in __init__
+    self.data[video_list[0]] = load_video_func(video_list[0])
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/Samsung SSD/FACT_and_all_working_copy/src/o4_fact/src/utils/dataset.py", line 256, in load_video
+    feature = load_thumbnails(thumbnails_dir, vname, feature_transpose)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/Samsung SSD/FACT_and_all_working_copy/src/o4_fact/src/utils/dataset.py", line 31, in load_thumbnails
+    thumbnails = os.listdir(f"{thumbnails_parent_dir}/{video_id}")
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../../data/thumbnails/thumbnails_60secsPerFrame_160px120px/video_'

@@ -43,3 +43,21 @@ bash thumbnails_inference.sh
 ```
 4. Check *data/prediction_visualisations* for results
 
+# Processing Prediction Results
+
+The repository includes a Jupyter notebook (`predictions.ipynb`) for converting raw prediction results into structured data for analysis:
+
+```python
+# Frame-by-Frame Prediction Results to CSV Conversion for Video Analysis
+
+This notebook processes the JSON prediction outputs from the FACT model and converts them into a CSV file with the following metrics for each video:
+- video_id: Unique identifier for each video
+- interlude_frames: Number of frames classified as belonging to an interlude
+- total_frames: Total number of frames analyzed
+- interlude_duration: Duration of interludes (in seconds)
+
+The notebook automatically detects the frame rate from the filename pattern (e.g., "60secsPerFrame") to calculate accurate durations.
+```
+
+This processing step is crucial for quantitative analysis, especially when working with large datasets. The output CSV files can be used for statistical analysis, visualization, and identifying temporal patterns in your cultural materials.
+

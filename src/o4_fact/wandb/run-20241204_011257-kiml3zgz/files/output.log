@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Volumes/Samsung SSD/FACT_and_all_working_copy/src/o4_fact/src/train.py", line 100, in <module>
+    dataset, test_dataset = create_dataset(cfg)
+                            ^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/Samsung SSD/FACT_and_all_working_copy/src/o4_fact/src/utils/dataset.py", line 238, in create_dataset
+    print(feature_path)
+          ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'feature_path' where it is not associated with a value

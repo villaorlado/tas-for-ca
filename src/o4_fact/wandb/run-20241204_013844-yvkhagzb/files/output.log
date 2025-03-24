@@ -1,0 +1,13 @@
+../../data/thumbnails/thumbnails_60secsPerFrame_160px120px
+Loading Feature from ../../data/thumbnails/thumbnails_60secsPerFrame_160px120px
+Loading Label from ..//src/4_fact/groundTruth
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Volumes/Samsung SSD/FACT_and_all_working_copy/src/o4_fact/src/train.py", line 100, in <module>
+    dataset, test_dataset = create_dataset(cfg)
+                            ^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/Samsung SSD/FACT_and_all_working_copy/src/o4_fact/src/utils/dataset.py", line 281, in create_dataset
+    with open(test_split_fname, 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../../data/training_splits/test.1.bundle'
