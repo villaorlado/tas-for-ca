@@ -4,10 +4,10 @@
 This repository provides tools for implementing Temporal Action Segmentation (TAS) in cultural analytics research. It was developed to support the study of narrative units in video materials, demonstrated through an analysis of comic interludes in Javanese wayang kulit (shadow puppet theater) performances.
 The repository implements the FACT (Frame-Action Cross-attention Temporal Modeling) framework, which combines convolutional processing for frame-level features with transformer-based processing for action dependencies. This hybrid approach is particularly well-suited for cultural materials where training data may be limited.
 The pipeline consists of four main components:
-- Frame Extraction: Tools for extracting thumbnails/frames from video materials
-- Annotation Interface: A Streamlit-based interface for labeling video segments
-- FACT Model Implementation: Code for training and inference using the FACT action segmentation model
-- Visualization Tools: Methods to render and visualize the segmentation results
+- **Frame Extraction**: Tools for extracting thumbnails/frames from video materials
+- **Annotation Interface**: A Streamlit-based interface for labeling video segments
+- **FACT Model Implementation**: Code for training and inference using the FACT action segmentation model
+- **Visualization Tools**: Methods to render and visualize the segmentation results
 
 This approach enables researchers to identify meaningful temporal segments in video materials based on culturally significant action sequences rather than just technical features like shot boundaries.
 
