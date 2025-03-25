@@ -29,30 +29,30 @@ This is a simple Svelte-based labeling tool designed for creating ground truth d
 ## 🚀 Getting Started
 
 ### 1. Install Dependencies
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+```
 
 ### 2. Run the Development Server
-\`\`\`bash
+```bash
 npm run dev
-\`\`\`
+```
 Access the app at:  
-\`\`\`
+```
 http://localhost:5173/
-\`\`\`
+```
 Or open it automatically:
-\`\`\`bash
+```bash
 npm run dev -- --open
-\`\`\`
+```
 
 ---
 
 ## 🏗 Building for Production
-\`\`\`bash
+```bash
 npm run build
 npm run preview
-\`\`\`
+```
 
 ---
 
@@ -82,12 +82,12 @@ npm run preview
 ---
 
 ## 📄 Example Export Format (Optional)
-\`\`\`json
+```json
 [
   { "start": 0.0, "end": 2.5, "label": "Walking" },
   { "start": 2.5, "end": 5.0, "label": "Running" }
 ]
-\`\`\`
+```
 
 ---
 
