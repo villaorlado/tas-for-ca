@@ -1,0 +1,20 @@
+part: snippet
+channelType: any
+eventType: completed
+maxResults: 50
+order: relevance
+pageToken: None
+publishedAfter: None
+publishedBefore: None
+q: wayang kulit
+type: video
+videoCaption: any
+videoDefinition: any
+videoDimension: any
+videoDuration: any
+videoEmbeddable: any
+videoLicense: any
+videoPaidProductPlacement: any
+videoSyndicated: any
+videoType: any
+# relevanceLanguage: id

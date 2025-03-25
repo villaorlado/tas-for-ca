@@ -1,0 +1,5 @@
+3_FACT/data/*
+3_FACT/log/*
+.DS_Store
+__pycache__/
+.vscvode/
