@@ -20,7 +20,7 @@ The project is structured into **three main modules**:
 
 ---
 
-## 1⃣ YouTube Data Collection (`1_YouTubeAPI`)
+## 1 YouTube Data Collection (`1_YouTubeAPI`)
 Tools for querying the **YouTube Data API** and downloading relevant videos, particularly performing arts materials like *Wayang Kulit*.
 
 **Key Features:**
@@ -35,7 +35,7 @@ Tools for querying the **YouTube Data API** and downloading relevant videos, par
 
 ---
 
-## 2⃣ Temporal Action Labeling Interface (`2_labellingInterface`)
+## 2 Temporal Action Labeling Interface (`2_labellingInterface`)
 An interactive **Svelte-based web app** that allows you to label temporal action segments directly on video timelines.
 
 **Key Features:**
@@ -51,7 +51,7 @@ An interactive **Svelte-based web app** that allows you to label temporal action
 
 ---
 
-## 3⃣ Finetuning the FACT Model for Humanities Data (`3_FACT`)
+## 3 Finetuning the FACT Model for Humanities Data (`3_FACT`)
 Implements the **FACT (Frame-Action Cross-Attention Temporal Modeling)** architecture, adapting it for **humanities research** and **performing arts analysis**.
 
 **Key Features:**
