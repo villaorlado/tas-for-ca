@@ -58,49 +58,49 @@ npm run preview
 
 ## 🖥 Usage Overview
 
-1. Open the app in your browser.
-2. **Create segments** by clicking and dragging on the timeline.
-3. **Assign labels** to each segment (e.g., "Jump", "Run", "Sit").
-4. **Modify or delete** segments as needed.
-5. (Optional) **Export** the segments for use in model training.
+### Initial Setup
 
----
+1. Select Directory: Click the "Select Directory" button to choose the folder containing your video screenshots (each video is represented by its own folder).
+2. Select TXT Folder: Click the "Select TXT Folder" button to specify where the annotation files should be stored (one .txt file per video).
+![Initial setup](screenshots/01.png)
 
-## 📸 Screenshots
+### Main Interface Navigation
 
-### 📍 Timeline Interface - Create and Adjust Segments
-![Timeline Interface](screenshots/timeline.png)
+1. Directory Overview: After selecting a directory, you'll see:
+- Total files count (e.g., 40118 shown in the example)
+- List of subfolders, each representing a video
+- Number of images in each subfolder
+- Green checkmarks indicating which videos already have saved labels
 
-### 🏷 Label Assignment Example
-![Label Assignment](screenshots/label-assignment.png)
+2. Video Navigation: When viewing a specific video (subfolder):
+- Use "Main" button to return to the directory overview
+- Use "Previous Video" and "Next Video" buttons to move between videos
+- The current subfolder name is displayed (e.g., "-kUc0fCip28")
 
-### 📤 Export Example (if implemented)
-![Export Example](screenshots/export.png)
+### Labeling Process
 
-> 👉 Place your screenshots in a `/screenshots` folder. The images should illustrate the tool's key features.
+1. Import or Create Labels:
+- If a TXT file is available for the current video, you can click "Import Labels"
+- Alternatively, create new labels by typing in the "Enter label name" field and clicking "Add Label"
 
----
+2. Apply Labels to Images:
+- Click on a label (e.g., "Interlude") to activate it
+- Click on the video frames/images you want to apply this label to Images with labels appear with a red border and the label name beneath them
 
-## 📄 Example Export Format (Optional)
-```json
-[
-  { "start": 0.0, "end": 2.5, "label": "Walking" },
-  { "start": 2.5, "end": 5.0, "label": "Running" }
-]
-```
+3. Save Your Work:
+- Click "Save Labels to TXT" to store your annotations in the specified text file
 
----
+The TXT File Analysis section shows statistics about your labels (e.g., 60.2% of frames labeled as "Interlude")
 
-## 🤖 Ideal Use Cases
-- Preparing training datasets for temporal models like **TCN**, **MS-TCN**, etc.
-- Annotating long videos or sensor recordings for action recognition tasks.
+## Additional Features
 
----
+- Click "Clear" buttons to reset your workspace when needed
+- The interface shows unique labels found in TXT files
+- A color picker is available when creating new labels
 
-## 🔧 Future Improvements
-✅ Export/Import JSON functionality  
-✅ Video/audio synchronization (optional)  
-✅ Multi-label support
+This workflow allows you to efficiently label frames across multiple videos and save that information in a structured format for further analysis.
+
+![Labelling proces](screenshots/02.png)
 
 ---
 
