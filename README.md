@@ -1,4 +1,4 @@
-# 🎥 Temporal Action Segmentation for Culutural Analytics
+# 🎥 Temporal Action Segmentation for the Analysis of Intangible Cultura Heritage
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
